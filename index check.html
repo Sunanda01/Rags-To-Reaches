@@ -1,0 +1,314 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>@import "index1.css";</style>
+</head>
+<body>
+<script src="https://kit.fontawesome.com/0715c7df9a.js" crossorigin="anonymous">
+  $(".Navigation-list-item").on("click", function () {
+  $(".Navigation-list-item").removeClass("active");
+  $(this).addClass("active");
+});
+
+$(".pins").masonry({
+  // options
+  itemSelector: ".pin",
+  columnWidth: 400,
+  fitWidth: true,
+  transitionDuration: "0.2s"
+});
+
+</script>
+
+
+	
+<div id="Navigation">
+  <div class="Main-navigation">
+    <div class="Main-logo">
+      <img src="https://static.mailchimp.com/web/brand-assets/logo-script-light.svg">
+    </div>
+
+    <div class="Navigation-items">
+      <ul class="Navigation-list">
+
+      <li class="Navigation-list-item">
+          <span class="Navigation-icon accent">
+           <i class="fas fa-praying-hands"></i>
+          </span>
+          <a href="donation.php" style="color:#999fa2;text-decoration:none;">
+            <span class="Navigation-title has-text-grey-light">Donations</span>
+          </a>
+        </li>
+        
+
+
+        <li class="Navigation-list-item">
+          <span class="Navigation-icon accent">
+		  <i class="fas fa-bars"></i>
+            
+          </span>
+          <span class="Navigation-title">Menu</span>
+          <ul class="Secondary-nav-list">
+            <li class="Secondary-nav-list-item">
+              <span class="Navigation-icon accent">
+              <i class="fa fa-address-book-o"></i>
+              </span>
+              <span class="Navigation-title">My Account</span>
+              <span class="Sub-nav-arrow"></span>
+            </li>
+            <li class="Secondary-nav-list-item">
+              <span class="Navigation-icon accent">
+              <i class="fas fa-shopping-cart"></i>
+              </span>
+              <span class="Navigation-title">Shopping Cart</span>
+              <span class="Sub-nav-arrow"></span>
+            </li>
+            <li class="Secondary-nav-list-item">
+              <span class="Navigation-icon accent">
+              <i class="fas fa-bug"></i>
+              </span>
+              <span class="Navigation-title">Report an Issue</span>
+              <span class="Sub-nav-arrow"></span>
+            </li>
+			 <hr class="navbar-divider">
+            <li class="Secondary-nav-list-item">
+              <span class="Navigation-icon accent">
+              <i class="fa fa-user-o"></i>
+              </span>
+              <span class="Navigation-title">About Us</span>
+              <span class="Sub-nav-arrow"></span>
+            </li>
+		 
+			
+            </li>
+          </ul>
+        </li>
+
+      
+      <li class="Navigation-list-item">
+          <span class="Navigation-icon accent">
+           <i class="fas fa-clipboard-check"></i> 
+          </span>
+		  <a href="login_main.html" style="color:#999fa2;text-decoration:none;">
+          <span class="Navigation-title">Log In</span></a>
+		  
+        </li>
+      <li class="Navigation-list-item">
+          <span class="Navigation-icon accent">
+           <i class="fas fa-user-plus"></i>
+          </span>
+		  <a href="index1.html" style="color:#999fa2;text-decoration:none;">
+          <span class="Navigation-title">Sign Up</span></a>
+		  
+        </li>
+		<li class="Navigation-list-item">
+          <span class="Navigation-icon accent">
+           <i class="fas fa-edit"></i>
+          </span>
+		  <a href="index1.html" style="color:#999fa2;text-decoration:none;">
+          <span class="Navigation-title">Feedback</span></a>
+		  
+        </li>
+
+      </ul>
+      <span class="divider"></span>
+      
+    </div>
+  </div>
+</div>
+
+   
+
+
+<div id="Page">
+  <div class="Main-page">
+    <div id="pin-board">
+      <ul class="pins">
+        <li class="pin">
+          <div class="pin-inner">
+            <div class="pin-thumbnail">
+              <div class="pin-hover">
+                <i class="fa fa-eye"></i>
+              </div>
+              <img src="https://static.peachmode.com/media/images/product/94922/small/1616241371_1_GLBN-GI_8002-PEACHMODE.jpg">
+            </div>
+            <div class="pin-bar">
+              <span>Long Dress</span>
+              <span>100 Likes</span>
+              <div class="pin-edit">
+                <button type="submit"><i class="fas fa-cart-plus"></i></button>
+                <button type="submit"><i class="fas fa-eye"></i></button>
+				<button type="submit"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="pin-info">
+              <div class="pin-title">Red Long Simple Kurti</div>
+              <div class="pin-description">Available in All Sizes</div>
+			  Material:   Polyester <br>
+			  
+            </div>
+        </li>
+
+        <li class="pin">
+          <div class="pin-inner">
+            <div class="pin-thumbnail">
+               <div class="pin-hover">
+                <i class="fa fa-eye"></i>
+              </div>
+              <img   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCW1dgHGSsL-TlZP67Y-SI6wgceokBJIBY3w&usqp=CAU">
+            </div>
+            <div class="pin-bar">
+              <span>Long Dress</span>
+              <span>90 Likes</span>
+              <div class="pin-edit">
+                <button type="submit"><i class="fas fa-cart-plus"></i></button>
+                <button type="submit"><i class="fas fa-eye"></i></button>
+				<button type="submit"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="pin-info">
+              <div class="pin-title">Printed Long Dress</div>
+              <div class="pin-description">Available in All Sizes</div>
+			  Material:   Cotton
+            </div>
+        </li>
+
+
+        <li class="pin">
+          <div class="pin-inner">
+            <div class="pin-thumbnail">
+               <div class="pin-hover">
+                <i class="fa fa-eye"></i>
+              </div>
+              <img   src="https://i.pinimg.com/originals/c5/60/3c/c5603c28366662e7d6243ea17230032e.jpg">
+            </div>
+            <div class="pin-bar">
+              <span>Floral Dress</span>
+              <span>80 Likes</span>
+              <div class="pin-edit">
+                <button type="submit"><i class="fas fa-cart-plus"></i></button>
+                <button type="submit"><i class="fas fa-eye"></i></button>
+				<button type="submit"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="pin-info">
+              <div class="pin-title">Floral Printed Gorgeous Dress</div>
+              <div class="pin-description">Available in All Sizes</div>
+			  Material:   Silk
+            </div>
+        </li>
+
+
+        <li class="pin">
+          <div class="pin-inner">
+            <div class="pin-thumbnail">
+               <div class="pin-hover">
+                <i class="fa fa-eye"></i>
+              </div>
+              <img   src="https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNTFxT1dldHFteVMuX0FDX1VMMTUwMF8uanBn.jpg">
+            </div>
+            <div class="pin-bar">
+              <span>Bodycon Dress</span>
+              <span>150 Likes</span>
+              <div class="pin-edit">
+                <button type="submit"><i class="fas fa-cart-plus"></i></button>
+                <button type="submit"><i class="fas fa-eye"></i></button>
+				<button type="submit"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="pin-info">
+              <div class="pin-title">Beautiful Bodycon Dress</div>
+              <div class="pin-description">Available in All Sizes</div>
+			  Material:   Rayon
+            </div>
+        </li>
+        <li class="pin">
+          <div class="pin-inner">
+            <div class="pin-thumbnail">
+               <div class="pin-hover">
+                <i class="fa fa-eye"></i>
+              </div>
+              <img   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRDSUna7UET1GE6Hj3AR-6fCiTnwE-G9NKvg&usqp=CAU">
+            </div>
+            <div class="pin-bar">
+              <span>Formal Kurti</span>
+              <span>100 Likes</span>
+              <div class="pin-edit">
+                <button type="submit"><i class="fas fa-cart-plus"></i></button>
+                <button type="submit"><i class="fas fa-eye"></i></button>
+				<button type="submit"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="pin-info">
+              <div class="pin-title">Ethnic Long Formal Kurti</div>
+              <div class="pin-description">Available in All Sizes</div>
+			  Material:   Silk
+            </div>
+        </li>
+        <li class="pin">
+          <div class="pin-inner">
+            <div class="pin-thumbnail">
+               <div class="pin-hover">
+                <i class="fa fa-eye"></i>
+              </div>
+              <img   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvfyARTiBLnplXkwe8Vj-tkc_PUUH-HQijQ&usqp=CAU">
+            </div>
+            <div class="pin-bar">
+              <span>Long Dress</span>
+              <span>50 Likes</span>
+              <div class="pin-edit">
+                <button type="submit"><i class="fas fa-cart-plus"></i></button>
+                <button type="submit"><i class="fas fa-eye"></i></button>
+				<button type="submit"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="pin-info">
+              <div class="pin-title">Printed Long Dress</div>
+              <div class="pin-description">Available in All Sizes</div>
+			  Material:   Cotton
+            </div>
+        </li>
+      </ul>
+      </div>
+	  
+      </div>
+	  
+      </div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>  
+   </div>
+   
+   <div class="footer-basic">
+        <footer>
+            <div class="social">
+			   <a href="#"><i class="icon ion-social-instagram"></i></a>
+			   <a href="#"><i class="icon ion-social-snapchat"></i></a>
+			   <a href="#"><i class="icon ion-social-twitter"></i></a>
+			   <a href="#"><i class="icon ion-social-facebook"></i></a>
+			 </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2018</p>
+        </footer>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	<script src="index_main.js"></script>
+</body>
+
+</html>
